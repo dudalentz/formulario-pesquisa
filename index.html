@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="container">
+		<form>
+			<!--PRIMEIRA PARTE -->
+			<fieldset>
+				<legend>Dados Pessoais</legend>
+			<div class="dados">
+				<label for="nome">
+				<input class="nome" type="text" name="nome" id="nome" placeholder="Digite seu nome">
+				</label>
+			</div>
+			<div class="dados">
+				<label for="idade">
+				<select>
+					<option>idade</option>
+					<option><18</option>
+					<option>entre 20 e 30</option>
+					<option>entre 30 e 40</option>
+					<option>entre 40 e 50</option>
+					<option>>50</option>
+				</select>
+				</label>
+			</div>
+			<div class="dados">
+				<label for="sexo">
+				<select>
+					<option>sexo</option>
+					<option>Masculino</option>
+					<option>Feminino</option>
+					<option>Outro</option>
+				</select>
+				
+				</label>
+			</div>
+			</fieldset>
+			<!--SEGUNDA PARTE -->
+			<fieldset>
+				<legend>Estado</legend>
+			<div>
+				<select>
+					<option>--</option>
+					<option>RS</option>
+					<option>SC</option>
+					<option>PR</option>
+					<option>SP</option>
+					<option>RJ</option>
+					<option>MG</option>
+					<option>BA</option>
+					<option>RO</option>
+					<option>AC</option>
+					<option>outro</option>
+				</select>
+				<input type="text" name="estado" id="estado">
+			</div>
+			
+			</fieldset>
+			<!--TERCEIRA PARTE -->
+			<fieldset>
+				<legend>Ocupação</legend>
+			<div>
+				
+				<input type="radio" name="ocupacao">Estudante
+				<input type="radio" name="ocupacao">Empresário
+				<input type="radio" name="ocupacao">Aposentado <br>
+				<input type="radio" name="ocupacao">Desempregado 
+				<input type="radio" name="ocupacao">Autônomo
+				<input type="radio" name="ocupacao">Outro
+				
+			</div>
+			<div id="ocupacao">
+				<input type="text" name="ocupacao">
+			</div>
+			</fieldset>
+			<!--QUARTA PARTE -->
+			<fieldset>
+				<legend>Onde gosta de ir?</legend>
+			<div>
+				<input type="checkbox" name="lugar">Museu
+				<input type="checkbox" name="lugar">Cinema
+				<input type="checkbox" name="lugar">Parque de diversões<br>
+				<input type="checkbox" name="lugar">Parque
+				<input type="checkbox" name="lugar">Parque-aquático
+				<input type="checkbox" name="lugar">Zoológico
+			</div>
+			</fieldset>
+			<!--QUINTA PARTE -->
+			<fieldset>
+				<legend>Quando gosta de ir?</legend>
+			<div>
+				<input type="checkbox" name="lugar">De segunda à sexta-feita
+				<input type="checkbox" name="lugar">Final de semana
+				<input type="checkbox" name="lugar">Feriado
+			</div>
+			</fieldset>
+			<!--ÚLTIMA PARTE -->
+			<div id="enviar">
+				<input class="enviar" type="submit" value="Enviar">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
